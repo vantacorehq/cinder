@@ -1,0 +1,17 @@
+[package]
+name = "cinder"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Crash-safe embedded SQL database. WAL, sorted runs, secondary indexes, transactions. Pure Rust. Zero dependencies."
+readme = "README.md"
+repository = "https://github.com/vantacorehq/cinder"
+keywords = ["database", "sql", "embedded", "wal", "lsm", "rust"]
+categories = ["database-implementations", "data-structures"]
+
+[dependencies]
+# ZERO DEPENDENCIES.
+
+[[bin]]
+name = "cinder"
+path = "src/main.rs"
